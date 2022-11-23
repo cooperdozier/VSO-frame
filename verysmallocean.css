@@ -1,0 +1,162 @@
+html, body {
+    background-color: palegoldenrod;
+}
+
+#site-head {
+    width: 100%;
+    border: 1px solid deepskyblue;
+    display: flex;
+    justify-content: space-between;
+}
+    #site-id {
+        border: 1px solid black;
+        font-size: x-large;
+        margin-left: 2vw;
+    }
+    #slide-name, #site-nav {
+        border: 1px solid whitesmoke;
+        font-size: x-large;
+        margin-right: 2vw;
+    }   
+
+#slide-body {
+    display: grid;
+    grid-template-columns: 5% 90% 5% ;
+    box-sizing: border-box;
+    border: 1px solid darkkhaki;
+  }
+    #left-arrow, #left-arrow-top, #right-arrow, #right-arrow-top {
+        display: flex;
+        border: 1px solid #5577dd;
+    }
+    #top-arrows {
+        display: none;
+    }
+    .left-arrow-img, .right-arrow-img {
+        border: 1px solid #5577dd;
+        display: block;
+        width: 3vw;
+        margin: auto 0.3em;
+    }
+    #left-arrow-top, #right-arrow-top {
+        display: inline-block;
+        width: 50%;
+    }
+    /* belongs to right-arrow, left-arrow */
+    .vert-center {
+        text-align: center;
+        margin: auto;
+        flex: auto;
+        width: 100%;
+        height: 10%;
+    }
+    #content-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+        #main-image {
+            margin: 0.5em 0.5em auto 0.5em;
+            width: 55%;
+        }
+            #main-image-object {
+                max-width: 100%;
+                margin: auto;
+            }
+        #bullets {
+            border: 1px solid gold;
+            width: 45%;
+        }
+        @media (max-width:55em) {
+            #main-image {
+                width: 95%;
+                margin: 0.5em auto auto auto;
+            }
+            #bullets {
+                width: 100%;
+            }
+            #content-box {
+                display: flex;
+                flex-direction: column;
+            }
+            #top-arrows {
+                display: flex;
+                flex-direction: row;
+                min-height: 2em;
+            }
+            #left-arrow, #right-arrow {
+                display: none;
+            }
+            #slide-body {
+                grid-template-columns: 100%;
+            }
+            .left-arrow-img, .right-arrow-img {
+                height: 100%;
+                min-width: 2em;
+            }
+            .right-arrow-img {
+                margin: 0 0.5em 0 auto;
+            }
+            .left-arrow-img {
+                margin: 0 auto 0 0.5em;
+            }
+        }
+        .standard-h2 {
+            margin: 0.5em;
+            border: 1px solid #552244;
+            padding: 0.5em;
+            font-family: 'Courier New', Courier, monospace;
+            padding-left: 1.5em;
+            letter-spacing: 0.07em;
+            font-size: large;
+        }
+            .bullet {
+                margin: .5em;
+                border: 1px solid #552244;
+                text-align: justify;
+                padding: .5em;
+                font-size: 1em;
+            }
+            #bullet-1 {
+                background-color: rgb(168, 194, 194);
+            }
+            #bullet-2 {
+                background-color: rgb(196, 166, 196);
+            }
+            #bullet-3 {
+                background-color: rgb(168, 191, 240);
+            }
+            #bullet-4 {
+                background-color: aliceblue;
+            }  
+            #bullet-5 {
+                background-color: antiquewhite;
+            }
+            #bullet-6 {
+                background-color: lightsteelblue;
+            }
+
+    /* 'footer' anchor - may not be footer in all window conformations */
+    #slide-nav {
+        box-sizing: border-box;
+        width: 100%;
+        border: 2px solid darkslategray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+        .slide-anchor {
+            display: inline;
+            border: 2px solid black;
+            text-align: center;
+            font-size: large;
+            margin: 0.2em;
+            padding: 0.2em;
+            min-height: 7vh;
+            min-width: 8vw;
+        }
+        /* see below for individual slide-link styles */
+        #placeholder {
+            background-image: url("../graphics/nav/.");
+        }

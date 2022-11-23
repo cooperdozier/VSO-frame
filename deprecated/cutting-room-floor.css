@@ -1,0 +1,59 @@
+#psychology-2 {
+    background-image: url("../images/backgrounds/.");
+}
+#psychology-3 {
+    background-image: url("../images/backgrounds/.");
+}
+#psychology-4 {
+    background-image: url("../images/backgrounds/.");
+}
+#psychology-5 {
+    background-image: url("../images/backgrounds/.");
+}
+/* readability spacer */
+#scale-1 {
+    background-image: url("../images/backgrounds/.");
+}
+#scale-2 {
+    background-image: url("../images/backgrounds/.");
+}
+#scale-3 {
+    background-image: url("../images/backgrounds/.");
+}
+#scale-4 {
+    background-image: url("../images/backgrounds/.");
+}
+#scale-5 {
+    background-image: url("../images/backgrounds/.");
+}
+/* readability spacer */
+#ocean-1 {
+    background-image: url("../images/backgrounds/.");
+}
+#ocean-2 {
+    background-image: url("../images/backgrounds/.");
+}
+#ocean-3 {
+    background-image: url("../images/backgrounds/.");
+}
+#ocean-4 {
+    background-image: url("../images/backgrounds/.");
+}
+#ocean-5 {
+    background-image: url("../images/backgrounds/.");
+}
+
+.slide-anchor {
+    /* display: inline-block; */
+    /* width:auto; */
+    /* max-height: 100%; */
+    /* flex: auto; */
+}
+
+#slide-body {
+    border: 3px solid rgb(116, 13, 13);
+}
+
+#left-arrow-img {
+    background-image: url("images/left-arrow-sm.jpg");
+}
