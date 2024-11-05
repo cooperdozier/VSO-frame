@@ -5,3 +5,5 @@ live preview of mobile-first responsive improved presentation slide deck. unclea
 A responsive and mobile-ready web-based presentation template
 
 Note: the index.html is presently still put together like a template. In order for everything to work correctly, open any file in the /pages directory instead.
+
+I think this is the most recent code version that hasnt detoured to something else and stpped or got a fragment copy pasted into a different project and then stopped
